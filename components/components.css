@@ -1,4 +1,5 @@
-@import url("/components/alert/alert.css");
+@import url("../components/alert/alert.css");
+@import url("../components/avatars/avatar.css");
 :root{
     /* Alerts */
     /* Blue */

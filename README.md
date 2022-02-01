@@ -1,3 +1,3 @@
-# Component Library Alerts
-## Addeed Info , Success , Error and Warning Alerts
- 
+# Component Library Avatars
+## Addeed Large, Medium , Small and Sqaure Avatars
+![avatar-image]("../components/avatars-image.png")
