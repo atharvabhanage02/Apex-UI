@@ -1,3 +1,3 @@
 # Component Library Avatars
-## Addeed Large, Medium , Small and Sqaure Avatars
-![avatar-image]("/components/avatars-image.png")
+## Added Large, Medium , Small and Square Avatars
+
