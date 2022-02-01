@@ -1,3 +1,3 @@
-# Component Library Alerts
-## Addeed Info , Success , Error and Warning Alerts
- 
+# Component Library Avatars
+## Added Large, Medium , Small and Square Avatars
+
