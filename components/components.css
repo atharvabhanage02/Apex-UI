@@ -1,0 +1,20 @@
+@import url("/components/alert/alert.css");
+:root{
+    /* Alerts */
+    /* Blue */
+    --dark-blue:#00b8f5;
+    --medium-blue:#7ebed3;
+    --light-blue:#c1e9f6;
+    /* Green */
+    --dark-green:#43f143;
+    --medium-green:#75ee75;
+    --light-green:#ddfddd;
+    /* Red */
+    --dark-red:#ff3333;
+    --medium-red:#f34e4e;
+    --light-red:#ffe6e6;
+    /* Orange */
+    --dark-orange:#ffa500;
+    --medium-orange:#ffc04d;
+    --light-orange:#fff6e6;
+}
