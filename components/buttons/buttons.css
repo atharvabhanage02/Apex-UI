@@ -1,0 +1,56 @@
+.apex-btn{
+    color: var(--apex-text-btn);
+    padding: var(--apex-btn-padding);
+    border: none;
+    border-radius: var(--apex-btn-border-radius);
+    cursor: pointer;
+}
+
+/* Primary and Secondary Buttons */
+
+.apex-primary-btn{
+    background-color: var(--primary-btn);
+}
+.apex-secondary-btn{
+    background-color: var(--secondary-btn);
+}
+
+/* Link Buttons */
+
+.apex-link{
+    color: var(--apex-text-link-color);
+    text-decoration: none;
+}
+.apex-link-btn{
+    background-color: var(--link);
+}
+
+/* Icon Buttons */
+
+.apex-cart-btn{
+    background-color: var(--cart-btn);
+}
+.apex-like-btn{
+    background-color: var(--like-btn);
+
+}
+.apex-share-btn{
+    background-color: var(--share-btn);
+}
+.apex-subscribe-btn{
+    background-color: var(--subscribe-btn);
+}
+
+/* Floating Button */
+
+.floating-btn{
+    color: white;
+    font-size: 20px;
+    background-color: var(--floating-btn);
+    font-weight: bolder;
+    padding: 10px 13px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 5px 5px 10px 2px var(--floating-box-shadow);
+    cursor: pointer;
+}

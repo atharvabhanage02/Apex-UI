@@ -1,5 +1,6 @@
 @import url("../components/alert/alert.css");
 @import url("../components/avatars/avatar.css");
+@import url("../components/buttons/buttons.css");
 :root{
     /* Alerts */
     /* Blue */
@@ -18,4 +19,21 @@
     --dark-orange:#ffa500;
     --medium-orange:#ffc04d;
     --light-orange:#fff6e6;
+    /* Alerts End */
+
+    /* Buttons */
+    --apex-text-btn:#ffffff;
+    --primary-btn :#5c9be4;
+    --secondary-btn:#2753e4;
+    --link :#51c6e4;
+    --cart-btn :#cdb132;
+    --like-btn : #008000;
+    --share-btn:#89d5ee;
+    --subscribe-btn:#eb2d2d;
+    --floating-btn:#68a8f1;
+    --floating-box-shadow : #7a7272cc;
+    --apex-text-link-color:#ffffff;
+    --apex-btn-padding : 0.8rem;
+    --apex-btn-border-radius : 0.8rem;
+    /* Buttons End */
 }
