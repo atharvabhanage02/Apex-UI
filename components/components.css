@@ -59,6 +59,7 @@
      /* Inputs */
     --input-font-size:1rem;
     --text-grey:#808080;
-    --input-width:300px;
+    --radio-input-height : 0.93rem;
+    --radio-input-width : 0.93rem;
     /* Inputs End */
 }
