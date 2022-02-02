@@ -1,0 +1,68 @@
+.icon{
+    font-size: var(--apex-icon-size);
+}
+.badges{
+    display: inline-block;
+    width: var(--apex-badge-width);
+    height: var(--apex-badge-height);
+    position: relative;
+    margin: var(--apex-badge-margin);
+}
+.badge-count{
+    color: var(--badge-count-color);
+    padding: 3px 7px;
+    border-radius: var(--badge-count-border-radius);
+}
+.badge-count-right{
+    position: absolute;
+    top: var(--badge-position-top);
+    right: var(--badge-position-right);
+}
+.badge-count-left{
+    position: absolute;
+    top: var(--badge-position-top);
+    left: var(--badge-position-left);
+}
+.badge-circle-red{  
+    background-color: var(--dark-red);
+}
+.badge-circle-green{
+    background-color: var(--dark-green);
+}
+.badge-circle-blue{
+    background-color:var(--dark-blue);
+}
+.badge-circle-orange{
+    background-color: var(--dark-orange);
+}
+
+
+/* Badge on Avatar */
+.badge-on-avatar{
+    display: inline-block;
+    position: relative;
+}
+.badge-spot{
+    position: absolute;
+    top: var(--badge-spot-position-top);
+    right: var(--badge-spot-position-right);
+    border-radius: 50%;
+    width: var(--badge-spot-width);
+    height:var(--badge-spot-height);
+}
+.badge-green-spot{
+    background-color: var(--dark-green);
+}
+.badge-red-spot{
+    background-color: var(--dark-red);
+}
+.avatar-border-grey{
+    border: 3px solid var(--avatar-border-grey);
+}
+/* Avatar with Borders */
+.avatar-border-red{
+    border: 3px solid var(--dark-red);
+}
+.avatar-border-green{
+    border: 3px solid var(--dark-green);
+}
