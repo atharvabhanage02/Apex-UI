@@ -1,0 +1,30 @@
+/* All Basic Inputs (text , Number , Passwords) */
+.apex-text-input,.apex-number-input,.apex-password-input,.apex-input-alerts{
+    font-size: var(--input-font-size);
+    color: var(--text-grey);
+    border: 2px solid var(--dark-blue);
+    max-width: var(--input-width);
+    padding: 10px 8px;
+    border-radius: 6px;
+}
+
+/* Error Input Styling */
+
+.apex-input-success{
+    border: 2px solid var(--dark-green);
+}
+.apex-input-warning{
+    border: 2px solid var(--dark-orange); 
+}
+.apex-input-error{
+    border: 2px solid var(--dark-red);
+}
+
+/* Radio and Checkbox Input */
+.input-select{
+    font-size: 1.25rem;
+}
+.radio-input,.checkbox-input{
+    height: 15px;
+    width: 15px;
+}
