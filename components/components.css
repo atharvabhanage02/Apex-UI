@@ -1,6 +1,7 @@
 @import url("../components/alert/alert.css");
 @import url("../components/avatars/avatar.css");
 @import url("../components/buttons/buttons.css");
+@import url("../components/badges/badges.css");
 :root{
     /* Alerts */
     /* Blue */
@@ -36,4 +37,22 @@
     --apex-btn-padding : 0.8rem;
     --apex-btn-border-radius : 0.8rem;
     /* Buttons End */
+
+     /* Badges */
+     --apex-icon-size : 1.56rem;
+     --apex-badge-width : 1.87rem;
+     --apex-badge-height : 1.25rem;
+     --apex-badge-margin:0.6rem;
+     --badge-position-top:-0.8rem;
+     --badge-position-right:-0.5rem;
+     --badge-position-left:-0.5rem;
+ 
+     --badge-spot-position-top : 0.5rem;
+     --badge-spot-position-right : 0.65rem;
+     --badge-spot-width:0.7rem;
+     --badge-spot-height:0.7rem;
+     --avatar-border-grey:#eee6e6;
+     --badge-count-color : #eeebeb;
+     --badge-count-border-radius: 50%;
+     /* Badges End */
 }
