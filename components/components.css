@@ -1,9 +1,17 @@
+/* External Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@320&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.7/css/all.css");
+/* External Imports End */
 @import url("../components/alert/alert.css");
 @import url("../components/avatars/avatar.css");
 @import url("../components/buttons/buttons.css");
 @import url("../components/badges/badges.css");
 @import url("../components/inputs/inputs.css");
 @import url("../components/reponsive-images/responsive-images.css");
+@import url("../components/cards/cards.css");
+body{
+    font-family: 'Roboto', sans-serif;
+}
 :root{
     /* Alerts */
     /* Blue */
@@ -70,6 +78,44 @@
     --square-img-width:15rem;
     /* Responsive Images End */
 
+    /* Cards Start */
+        /* Basic Card */
+        --basic-card-width:16.87rem;
+        --basic-card-gap:0.62rem;
+        --basic-card-padding:0.93rem;
+        --card-border-radius:0.62rem;
 
+        --card-image-width:250px;
+        --font-discounted-price:1.2rem;
+        --font-product-discount:1rem;
+        --font-card-btn:1.12rem;
+        --font-product-name:1.3rem;
+        --font-bolder:bolder;
+        --color-green:#008000;
+        --card-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        --card-btn-background:#525252;
+        --card-btn-hover-background:#6b6868;
+        /* Basic Card End */
+        
+        /* Card with Badge Start */
+        --font-badge:0.87rem;
+        --badge-padding:0.25rem;
+        --card-badge-background:#df9712;
+        --card-badge-position-top:7px;
+        --color-white:white;
+        /* Card with Badge End */
+
+        /* Dismiss Start */
+        --dismiss-background:#cfcccc;
+        --dismiss-hover-background:#b6adad;
+        /* Dismiss End */
+
+        /* Horizontal Start */
+        --horizontal-card-height:10.62rem;
+        --horizontal-data-gap:1.56rem;
+        /* Horizontal End */
+
+
+        /* Cards End */
 
 }
