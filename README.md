@@ -1,3 +1,3 @@
-# Component Library Inputs
-## Added Text , Number , Password , Success , Warning , Error , Radio and Checkbox Input Fields
-![inputs](./components/inputs/Inputs.png)
+# Component Library Cards
+## Added Vertical and Horizonatal cards , Card with badges , Card with Dismiss , Card with Text Overlay and Card with Text Only 
+
