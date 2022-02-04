@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --component-library-name-font : 2.5rem;
+    --component-library-name-color : #4d4dff;
+    --sidebar-background-color:#18191a;
+    --sidebar-text-color:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* The biggest Container */
+.main-container{
+    display: flex;
+}
+/* Logo */
+.apex-branding{
+    margin: 0.625rem;
+    padding: 0.93rem;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.apex-logo{
+    width: 1.87rem;
+    height: 1.87rem;
+}
+.apex-svg-logo{
+    width: 3.125rem;
+    height: 3.06rem;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+/* CL name */
+.cl-name{
+    font-size: var(--component-library-name-font);
+    color: var(--component-library-name-color);
+}
+/* Sidebar */
+.sidebar{
+    background-color: var(--sidebar-background-color);
+    color: var(--sidebar-text-color);
+    flex-grow: 0;
+    width: 20rem;
+    height: 100%;
+    overflow-y:scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+.sidebar-links{
+    display: block;
+    padding: 0.938rem;
+    color: white;
+    border: 2px solid grey;
+    font-size: 1.25rem;
+    margin: 1.25rem 0.625rem;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sidebar-links:hover{
+    background-color: grey;
+    transition: 0.6s;
+}
+/* Main Docs Content  */
+.documentation{
+    flex-grow: 1;
+    padding: 1.56rem;
+    margin-left:20rem;
+}
+.main-component-details{
+    padding: 0.625rem;
+    border-bottom: 1px solid grey;
+}
+.docs-component-name{
+    margin-bottom: 1.25rem;
+}
+.sub-component-details{
+    padding: 0.625rem;
+}
+.component-code{
+    margin: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    margin: 1.5rem 0px;
+}
+/* Alert Showcase */
+.alerts-wrapper{
+    margin: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Avatar Showcase */
+.avatar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+/* Badges Showcase  */
+.badges-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+/* Cards vertical and vertical-with-badge */
+.cards-vertical-and-vertical-badge{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+/* Horizontal Card  */
+.horizontal-card-wrapper{
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-card-display{
+    width: 37.5rem;
+}
+/* Text overlay and text only card */
+.card-with-text-overlay--wrapper{
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+/* Image  */
+.image-wrapper{
+    margin: 1.87rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+}
+/* Image */
+/* Inputs wrapper  */
+.inputs-wrapper{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.87rem;
+    justify-content: center;
+    align-items: center;
+}
+.inputs-text-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+.inputs-alerts-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.choose-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.37rem;
+}
