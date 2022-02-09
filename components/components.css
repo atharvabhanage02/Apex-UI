@@ -9,10 +9,12 @@
 @import url("../components/inputs/inputs.css");
 @import url("../components/reponsive-images/responsive-images.css");
 @import url("../components/cards/cards.css");
+@import url("../components/ratings/ratings.css");
 body{
     font-family: 'Roboto', sans-serif;
 }
 :root{
+    --primary-color:#4d4dff;
     /* Alerts */
     /* Blue */
     --dark-blue:#00b8f5;

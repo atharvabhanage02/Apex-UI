@@ -189,3 +189,10 @@ iframe{
     justify-content: center;
     gap: 4.37rem;
 }
+/* Ratings */
+.ratings-wrapper{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
