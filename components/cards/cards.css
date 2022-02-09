@@ -50,6 +50,7 @@
 }
 .card-image{
     width: var(--card-image-width);
+    height: var(--card-image-height);
     cursor: pointer;
 }
 .card-details{
@@ -112,6 +113,10 @@
     position: relative;
     box-shadow: var(--card-shadow);
     border-radius: var(--card-border-radius);
+}
+.horizontal-card-image{
+    width: 250px;
+    height: 170px;
 }
 .card-details-horizontal{
     margin-left: 1.25rem;

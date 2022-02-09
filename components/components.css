@@ -85,7 +85,8 @@ body{
         --basic-card-padding:0.93rem;
         --card-border-radius:0.62rem;
 
-        --card-image-width:250px;
+        --card-image-width:280px;
+        --card-image-height:280px;
         --font-discounted-price:1.2rem;
         --font-product-discount:1rem;
         --font-card-btn:1.12rem;
