@@ -48,11 +48,11 @@
     color: var(--dark-red) ;
     cursor: pointer;
 }
-.card-image{
+/* .card-image{
     width: var(--card-image-width);
     height: var(--card-image-height);
     cursor: pointer;
-}
+} */
 .card-details{
     display: flex;
     flex-direction: row;
@@ -137,4 +137,35 @@
     position: absolute;
     top: 40%;
     left: 26%;
+}
+/* Changed the styling of card image and made it fit the image container */
+/* For vertical card */
+.card-image-container{
+    width: 270px;
+    transition: 1s;
+}
+.card-image-container:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    cursor: pointer;
+}
+.card-image{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+/* For horizontal card */
+.horizontal-image-container{
+    width: 230px;
+    transition: 1s;
+}
+.horizontal-image-container:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    cursor: pointer;
+}
+.horizontal-card-image{
+    height: 180px;
+    width: 100%;
+    object-fit: contain;
 }
