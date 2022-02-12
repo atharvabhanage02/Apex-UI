@@ -1,0 +1,7 @@
+.star-icon{
+    font-size: 1.875rem;
+}
+.ratings-star .far:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}

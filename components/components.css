@@ -9,28 +9,29 @@
 @import url("../components/inputs/inputs.css");
 @import url("../components/reponsive-images/responsive-images.css");
 @import url("../components/cards/cards.css");
+@import url("../components/ratings/ratings.css");
 body{
     font-family: 'Roboto', sans-serif;
 }
 :root{
-    /* Alerts */
-    /* Blue */
+    --primary-color:#4d4dff;
+    
     --dark-blue:#00b8f5;
     --medium-blue:#7ebed3;
     --light-blue:#c1e9f6;
-    /* Green */
+    
     --dark-green:#1cc30c;
     --medium-green:#75ee75;
     --light-green:#ddfddd;
-    /* Red */
+    
     --dark-red:#ff3333;
     --medium-red:#f34e4e;
     --light-red:#ffe6e6;
-    /* Orange */
+    
     --dark-orange:#ffa500;
     --medium-orange:#ffc04d;
     --light-orange:#fff6e6;
-    /* Alerts End */
+    
 
     /* Buttons */
     --apex-text-btn:#ffffff;
