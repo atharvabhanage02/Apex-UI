@@ -1,0 +1,7 @@
+.slider{
+    width: 20rem;
+    cursor: pointer;
+}
+.slider-value{
+    text-align: center;
+}

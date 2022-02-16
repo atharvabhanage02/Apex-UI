@@ -10,6 +10,7 @@
 @import url("../components/reponsive-images/responsive-images.css");
 @import url("../components/cards/cards.css");
 @import url("../components/ratings/ratings.css");
+@import url("../components/slider/slider.css");
 body{
     font-family: 'Roboto', sans-serif;
 }
