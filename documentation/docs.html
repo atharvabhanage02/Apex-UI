@@ -28,6 +28,7 @@
                 <a href="#inputs" class="sidebar-links">Inputs</a>
                 <a href="#ratings" class="sidebar-links">Ratings</a>
                 <a href="#slider" class="sidebar-links">Slider</a>
+                <a href="#modal" class="sidebar-links">Modal</a>
             </div>
         </div>
         <div class="documentation">
@@ -439,7 +440,67 @@
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-        </div>
+            </div>
+            <div class="sub-docs-container">
+                <div class="main-component-details">
+                    <h1 class="docs-component-name" id="modal">Modal</h1>
+                    <label class="component-desciption"></label>
+                </div>
+    
+                <div class="component-demo">
+                    <div class="modal-container">
+                        <!-- Alert Modal -->
+                        <div class="dialog-box alert-dialog-box">
+                            <div class="dialog-header">
+                                Alert Dialog
+                            </div>
+                            <div class="dialog-description">
+                                Alert Message Here 
+                            </div>
+                            <div class="dialog-actions">
+                                <button class="modal-action-btn ">Action 1</button>
+                                <button class="modal-action-btn ">Action 2</button>
+                            </div>
+                        </div>
+                        <!-- Simple Alert -->
+                        <div class="dialog-box simple-dialog-box">
+                            <div class="dialog-header">
+                                Simple Dialog 
+                            </div>
+                            <div class="items">
+                                <div class="item"><i class="fas fa-user-circle modal-item"></i>Item 1</div>
+                                <div class="item"><i class="fas fa-user-circle modal-item"></i>Item 2</div>
+                                <div class="item"><i class="fas fa-user-circle modal-item"></i>Item 3</div>
+                                <div class="item"><i class="fas fa-user-circle modal-item"></i>Item 4</div>
+                            </div>
+                        </div>
+                        <!-- Confirmation Modal -->
+                        <div class="dialog-box confirmation-dialog-box">
+                            <div class="dialog-header">
+                                Scrollable Dialog 
+                            </div>
+                            <div class="items confirmation-dialog-items">
+                                <div class="item"><input name="select-item" type="radio"> Item 1</div>
+                                <div class="item"><input name="select-item" type="radio"> Item 2</div>
+                                <div class="item"><input name="select-item" type="radio"> Item 3</div>
+                                <div class="item"><input name="select-item" type="radio"> Item 4</div>
+                                <div class="item"><input name="select-item" type="radio"> Item 5</div>
+                                <div class="item"><input name="select-item" type="radio"> Item 6</div>
+                            </div>
+                            <div class="dialog-actions">
+                                <button class="modal-action-btn">Action 1</button>
+                                <button class="modal-action-btn">Action 2</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%2877%2C77%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Alert%2520Modal%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522dialog-box%2520alert-dialog-box%2522%253E%250A%2509%253Cdiv%2520class%253D%2522dialog-header%2522%253E%250A%2509%2509Alert%2520Dialog%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522dialog-description%2522%253E%250A%2509%2509ALert%2520Message%2520Here%2520%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522dialog-actions%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522modal-action-btn%2520%2522%253EAction%25201%253C%252Fbutton%253E%250A%2509%2509%253Cbutton%2520class%253D%2522modal-action-btn%2520%2522%253EAction%25202%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Simple%2520Alert%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522dialog-box%2520simple-dialog-box%2522%253E%250A%2509%253Cdiv%2520class%253D%2522dialog-header%2522%253E%250A%2509%2509Simple%2520Dialog%2520%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522items%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520modal-item%2522%253E%253C%252Fi%253EItem%25201%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520modal-item%2522%253E%253C%252Fi%253EItem%25202%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520modal-item%2522%253E%253C%252Fi%253EItem%25203%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520modal-item%2522%253E%253C%252Fi%253EItem%25204%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Confirmation%2520Modal%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522dialog-box%2520confirmation-dialog-box%2522%253E%250A%2509%253Cdiv%2520class%253D%2522dialog-header%2522%253E%250A%2509%2509Scrollable%2520Dialog%2520%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522items%2520confirmation-dialog-items%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Cinput%2520name%253D%2522select-item%2522%2520type%253D%2522radio%2522%253E%2520Item%25201%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Cinput%2520name%253D%2522select-item%2522%2520type%253D%2522radio%2522%253E%2520Item%25202%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Cinput%2520name%253D%2522select-item%2522%2520type%253D%2522radio%2522%253E%2520Item%25203%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Cinput%2520name%253D%2522select-item%2522%2520type%253D%2522radio%2522%253E%2520Item%25204%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Cinput%2520name%253D%2522select-item%2522%2520type%253D%2522radio%2522%253E%2520Item%25205%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522item%2522%253E%253Cinput%2520name%253D%2522select-item%2522%2520type%253D%2522radio%2522%253E%2520Item%25206%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522dialog-actions%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522modal-action-btn%2522%253EAction%25201%253C%252Fbutton%253E%250A%2509%2509%253Cbutton%2520class%253D%2522modal-action-btn%2522%253EAction%25202%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A"
+                    style="width: 833px; height: 1081px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
