@@ -41,7 +41,7 @@
 }
 .badge-spot{
     position: absolute;
-    top: var(--badge-spot-position-top);
+    bottom: var(--badge-spot-position-bottom);
     right: var(--badge-spot-position-right);
     border-radius: 50%;
     width: var(--badge-spot-width);

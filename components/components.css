@@ -63,6 +63,7 @@ body{
  
      --badge-spot-position-top : 0.5rem;
      --badge-spot-position-right : 0.65rem;
+     --badge-spot-position-bottom : 0.9rem;
      --badge-spot-width:0.7rem;
      --badge-spot-height:0.7rem;
      --avatar-border-grey:#eee6e6;
