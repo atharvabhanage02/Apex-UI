@@ -1,9 +1,0 @@
-.round-image{
-    width: var(--round-img-width);
-    border-radius: 50%;
-    object-fit: cover;
-}
-.sqaure-image{
-    width: var(--square-img-width);
-    object-fit: cover;
-}
