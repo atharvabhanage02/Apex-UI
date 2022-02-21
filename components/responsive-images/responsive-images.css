@@ -1,0 +1,11 @@
+.round-image{
+    width: var(--round-img-width);
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sqaure-image{
+    max-width: var(--square-img-width);
+    height: auto;
+    object-fit: cover;
+}

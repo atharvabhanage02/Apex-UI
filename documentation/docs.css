@@ -124,10 +124,21 @@ iframe{
 /* Badges Showcase  */
 .badges-wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.25rem;
+    gap: 1.5rem;
+}
+.simple-badges-wrapper , .badges-on-avatar-wrapper{
+    display: flex;
+    gap: 60px;
+}
+.buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 /* Cards vertical and vertical-with-badge */
 .cards-vertical-and-vertical-badge{
@@ -158,9 +169,10 @@ iframe{
 .image-wrapper{
     margin: 1.87rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6.25rem;
+    gap: 3.25rem;
 }
 /* Image */
 /* Inputs wrapper  */
@@ -182,7 +194,22 @@ iframe{
     flex-wrap: wrap;
     gap: 1.25rem;
 }
-
+.styled-input-section{
+    display: flex;
+    flex-direction: column;
+}
+.input-error-styling-msg{
+    font-size: small;
+} 
+.success-input-style{
+    color: var(--dark-green);
+}
+.warning-input-style{
+    color: var(--dark-orange);
+}
+.error-input-style{
+    color: var(--dark-red);
+}
 .choose-input{
     display: flex;
     align-items: center;

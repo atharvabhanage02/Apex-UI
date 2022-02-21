@@ -11,7 +11,7 @@ nav>h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:1.56rem 6.25rem;
+    margin: 1.56rem 6.25rem;
 }
 .socials-icon{
     color: #4949F2;
@@ -20,22 +20,29 @@ nav>h1{
     margin-right: 1.56rem;
 }
 .cl-details{
-    margin-top: 6rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 6.25rem;
+    gap: 3rem;
 }
 .cl-description{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1.87rem;
+    gap: 1rem;
 }
 .cl-description>h1{
     color: black;
+    padding: 2px;
+}
+h1>span{
+    color: var(--primary-color);
+}
+.cl-description>h3{
+    text-align: center;
 }
 .get-started-btn{
     color: white;
@@ -50,9 +57,17 @@ nav>h1{
 button > a{
     color: white;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
+}
+.home-page-btns{
+    display: flex;
+    gap: 3rem;
+}
+.cl-landing-image{
+    padding: 0px 50px;
+
 }
 .landing-image{
     width: 25rem;

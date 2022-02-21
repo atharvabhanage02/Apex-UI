@@ -7,7 +7,7 @@
 @import url("../components/buttons/buttons.css");
 @import url("../components/badges/badges.css");
 @import url("../components/inputs/inputs.css");
-@import url("../components/reponsive-images/responsive-images.css");
+@import url("../components/responsive-images/responsive-images.css");
 @import url("../components/cards/cards.css");
 @import url("../components/ratings/ratings.css");
 @import url("../components/slider/slider.css");
@@ -79,8 +79,8 @@ body{
     /* Inputs End */
 
     /* Responsive Images Start */
-    --round-img-width:9rem;
-    --square-img-width:15rem;
+    --round-img-width:12rem;
+    --square-img-width:40rem;
     /* Responsive Images End */
 
     /* Cards Start */
