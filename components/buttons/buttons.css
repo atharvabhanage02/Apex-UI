@@ -4,6 +4,7 @@
     border: none;
     border-radius: var(--apex-btn-border-radius);
     cursor: pointer;
+    margin-right: 1rem;
 }
 .apex-primary-btn{
     background-color: var(--primary-btn);
@@ -31,8 +32,8 @@
     background-color: var(--subscribe-btn);
 }
 .floating-btn{
-    color: white;
-    font-size: 20px;
+    color: var(--color-white);
+    font-size: 1.2rem;
     background-color: var(--floating-btn);
     font-weight: bolder;
     padding: 10px 13px;
