@@ -1,0 +1,40 @@
+
+.navbar-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    z-index: 1;
+    margin: 10px 0px;
+}
+.ecom-name{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: white;
+}
+.search-bar{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.search-container{
+    width: 20%;
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    border: 2px solid black; 
+    border-radius: 1.56rem;
+}
+.wishlist-icon{
+    color: white;
+}
+.user-activity-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
