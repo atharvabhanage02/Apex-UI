@@ -1,5 +1,5 @@
 /* External Imports */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@320&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@320&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.0.7/css/all.css");
 /* External Imports End */
 @import url("../components/alert/alert.css");
@@ -13,116 +13,121 @@
 @import url("../components/slider/slider.css");
 @import url("../components/modal/modal.css");
 @import url("../components/navbar/navbar.css");
-body{
-    font-family: 'Roboto', sans-serif;
+@import url("../components/text-utilities/text-utilities.css");
+body {
+  font-family: "Roboto", sans-serif;
 }
-:root{
-    --primary-color:#4d4dff;
-    
-    --dark-blue:#00b8f5;
-    --medium-blue:#7ebed3;
-    --light-blue:#c1e9f6;
-    
-    --dark-green:#1cc30c;
-    --medium-green:#75ee75;
-    --light-green:#ddfddd;
-    
-    --dark-red:#ff3333;
-    --medium-red:#f34e4e;
-    --light-red:#ffe6e6;
-    
-    --dark-orange:#ffa500;
-    --medium-orange:#ffc04d;
-    --light-orange:#fff6e6;
-    
+:root {
+  --primary-color: #4d4dff;
 
-    /* Buttons */
-    --apex-text-btn:#ffffff;
-    --primary-btn :#5c9be4;
-    --secondary-btn:#2753e4;
-    --color-white : white;
-    --link :#51c6e4;
-    --cart-btn :#cdb132;
-    --like-btn : #008000;
-    --share-btn:#89d5ee;
-    --subscribe-btn:#eb2d2d;
-    --floating-btn:#68a8f1;
-    --floating-box-shadow : #7a7272cc;
-    --apex-text-link-color:#ffffff;
-    --apex-btn-padding : 0.8rem;
-    --apex-btn-border-radius : 0.8rem;
-    /* Buttons End */
+  --txt-grey-100: #dbdbdb;
+  --txt-grey-200: #949494;
+  --txt-grey-300: #7d7c83;
+  --txt-grey-400: #474747;
+  --txt-grey-500: #282828;
+  --txt-grey-600: #141414;
 
-     /* Badges */
-     --apex-icon-size : 1.56rem;
-     --apex-badge-width : 1.87rem;
-     --apex-badge-height : 1.25rem;
-     --apex-badge-margin:0.6rem;
-     --badge-position-top:-0.8rem;
-     --badge-position-right:-0.5rem;
-     --badge-position-left:-0.5rem;
- 
-     --badge-spot-position-top : 0.5rem;
-     --badge-spot-position-right : 0.65rem;
-     --badge-spot-position-bottom : 0.9rem;
-     --badge-spot-width:0.7rem;
-     --badge-spot-height:0.7rem;
-     --avatar-border-grey:#eee6e6;
-     --badge-count-color : #eeebeb;
-     --badge-count-border-radius: 50%;
-     /* Badges End */
+  --dark-blue: #00b8f5;
+  --medium-blue: #7ebed3;
+  --light-blue: #c1e9f6;
 
-     /* Inputs */
-    --input-font-size:1rem;
-    --text-grey:#808080;
-    --radio-input-height : 0.93rem;
-    --radio-input-width : 0.93rem;
-    /* Inputs End */
+  --dark-green: #1cc30c;
+  --medium-green: #75ee75;
+  --light-green: #ddfddd;
 
-    /* Responsive Images Start */
-    --round-img-width:12rem;
-    --square-img-width:40rem;
-    /* Responsive Images End */
+  --dark-red: #ff3333;
+  --medium-red: #f34e4e;
+  --light-red: #ffe6e6;
 
-    /* Cards Start */
-        /* Basic Card */
-        --basic-card-width:16.87rem;
-        --basic-card-gap:0.62rem;
-        --basic-card-padding:0.93rem;
-        --card-border-radius:0.62rem;
+  --dark-orange: #ffa500;
+  --medium-orange: #ffc04d;
+  --light-orange: #fff6e6;
 
-        --card-image-width:280px;
-        --card-image-height:280px;
-        --font-discounted-price:1.2rem;
-        --font-product-discount:1rem;
-        --font-card-btn:1.12rem;
-        --font-product-name:1.3rem;
-        --font-bolder:bolder;
-        --color-green:#008000;
-        --card-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        --card-btn-background:#525252;
-        --card-btn-hover-background:#6b6868;
-        /* Basic Card End */
-        
-        /* Card with Badge Start */
-        --font-badge:0.87rem;
-        --badge-padding:0.25rem;
-        --card-badge-background:#df9712;
-        --card-badge-position-top:7px;
-        --color-white:white;
-        /* Card with Badge End */
+  /* Buttons */
+  --apex-text-btn: #ffffff;
+  --primary-btn: #5c9be4;
+  --secondary-btn: #2753e4;
+  --color-white: white;
+  --link: #51c6e4;
+  --cart-btn: #cdb132;
+  --like-btn: #008000;
+  --share-btn: #89d5ee;
+  --subscribe-btn: #eb2d2d;
+  --floating-btn: #68a8f1;
+  --floating-box-shadow: #7a7272cc;
+  --apex-text-link-color: #ffffff;
+  --apex-btn-padding: 0.8rem;
+  --apex-btn-border-radius: 0.8rem;
+  /* Buttons End */
 
-        /* Dismiss Start */
-        --dismiss-background:#cfcccc;
-        --dismiss-hover-background:#b6adad;
-        /* Dismiss End */
+  /* Badges */
+  --apex-icon-size: 1.56rem;
+  --apex-badge-width: 1.87rem;
+  --apex-badge-height: 1.25rem;
+  --apex-badge-margin: 0.6rem;
+  --badge-position-top: -0.8rem;
+  --badge-position-right: -0.5rem;
+  --badge-position-left: -0.5rem;
 
-        /* Horizontal Start */
-        --horizontal-card-height:10.62rem;
-        --horizontal-data-gap:1.56rem;
-        /* Horizontal End */
+  --badge-spot-position-top: 0.5rem;
+  --badge-spot-position-right: 0.65rem;
+  --badge-spot-position-bottom: 0.9rem;
+  --badge-spot-width: 0.7rem;
+  --badge-spot-height: 0.7rem;
+  --avatar-border-grey: #eee6e6;
+  --badge-count-color: #eeebeb;
+  --badge-count-border-radius: 50%;
+  /* Badges End */
 
+  /* Inputs */
+  --input-font-size: 1rem;
+  --text-grey: #808080;
+  --radio-input-height: 0.93rem;
+  --radio-input-width: 0.93rem;
+  /* Inputs End */
 
-        /* Cards End */
+  /* Responsive Images Start */
+  --round-img-width: 12rem;
+  --square-img-width: 40rem;
+  /* Responsive Images End */
 
+  /* Cards Start */
+  /* Basic Card */
+  --basic-card-width: 16.87rem;
+  --basic-card-gap: 0.62rem;
+  --basic-card-padding: 0.93rem;
+  --card-border-radius: 0.62rem;
+
+  --card-image-width: 280px;
+  --card-image-height: 280px;
+  --font-discounted-price: 1.2rem;
+  --font-product-discount: 1rem;
+  --font-card-btn: 1.12rem;
+  --font-product-name: 1.3rem;
+  --font-bolder: bolder;
+  --color-green: #008000;
+  --card-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --card-btn-background: #525252;
+  --card-btn-hover-background: #6b6868;
+  /* Basic Card End */
+
+  /* Card with Badge Start */
+  --font-badge: 0.87rem;
+  --badge-padding: 0.25rem;
+  --card-badge-background: #df9712;
+  --card-badge-position-top: 7px;
+  --color-white: white;
+  /* Card with Badge End */
+
+  /* Dismiss Start */
+  --dismiss-background: #cfcccc;
+  --dismiss-hover-background: #b6adad;
+  /* Dismiss End */
+
+  /* Horizontal Start */
+  --horizontal-card-height: 10.62rem;
+  --horizontal-data-gap: 1.56rem;
+  /* Horizontal End */
+
+  /* Cards End */
 }

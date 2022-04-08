@@ -1,0 +1,42 @@
+.txt-xl {
+  font-size: 3rem;
+}
+.txt-l {
+  font-size: 2rem;
+}
+.txt-md {
+  font-size: 1.5rem;
+}
+.txt-sm {
+  font-size: 1rem;
+}
+.txt-xs {
+  font-size: 0.8rem;
+}
+.txt-grey-100 {
+  color: var(--txt-grey-100);
+}
+.txt-grey-200 {
+  color: var(--txt-grey-200);
+}
+.txt-grey-300 {
+  color: var(--txt-grey-300);
+}
+.txt-grey-400 {
+  color: var(--txt-grey-300);
+}
+.txt-grey-500 {
+  color: var(--txt-grey-500);
+}
+.txt-grey-600 {
+  color: var(--txt-grey-600);
+}
+.txt-left{
+  text-align: left;
+}
+.txt-center{
+  text-align: center;
+}
+.txt-right{
+  text-align: right;
+}
