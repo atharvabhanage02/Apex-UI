@@ -218,7 +218,7 @@ iframe {
 }
 /* Ratings */
 .ratings-wrapper {
-  margin: 20px;
+  margin: 1.12rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,7 +229,7 @@ iframe {
   text-align: center;
 }
 .text-headings {
-  margin: 20px;
+  margin: 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -240,8 +240,8 @@ iframe {
   border-radius: 10px;
 }
 .text-alignment-section {
-  margin: 20px;
-  padding: 20px;
+  margin: 1.25rem;
+  padding: 1.25rem;
   border: 1px solid var(--txt-grey-200);
   border-radius: 10px;
 }
