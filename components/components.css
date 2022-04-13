@@ -14,6 +14,7 @@
 @import url("../components/modal/modal.css");
 @import url("../components/navbar/navbar.css");
 @import url("../components/text-utilities/text-utilities.css");
+@import url("../components/lists/lists.css");
 body {
   font-family: "Roboto", sans-serif;
 }

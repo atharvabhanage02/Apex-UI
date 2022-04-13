@@ -38,6 +38,7 @@
           <a href="#modal" class="sidebar-links">Modal</a>
           <a href="#navbar" class="sidebar-links">Navbar</a>
           <a href="#text-utils" class="sidebar-links">Text Utilities</a>
+          <a href="#lists" class="sidebar-links">Lists</a>
         </div>
       </div>
       <div class="documentation">
@@ -983,6 +984,82 @@
             style="width: 599px; height: 243px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
+          </div>
+        </div>
+        <!--  -->
+        <div class="sub-docs-container">
+          <div class="main-component-details">
+            <h1 class="docs-component-name" id="lists">Lists</h1>
+            <label class="component-desciption"
+              >Sliders are used to decide range for something like sound in
+              videos, price in shopping sites, etc.</label
+            >
+          </div>
+          <div class="component-demo">
+            <div class="lists-wrapper flex-column-center">
+                <h2 class="list-heading">Simple List</h2>
+                <ul class="apex-lists">
+                  <li class="apex-list-items">Item 1</li>
+                  <li class="apex-list-items">Item 2</li>
+                  <li class="apex-list-items">Item 3</li>
+                  <li class="apex-list-items">Item 4</li>
+                </ul>
+            </div>
+            <div class="component-code">
+              <iframe src="https://carbon.now.sh/embed?bg=rgba%2877%2C77%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=626&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cul%2520class%253D%2522apex-lists%2522%253E%250A%2509%2509%253Cli%2520class%253D%2522apex-list-items%2522%253EItem%25201%253C%252Fli%253E%2520%250A%2509%2509%253Cli%2520class%253D%2522apex-list-items%2522%253EItem%25202%253C%252Fli%253E%2520%250A%2509%2509%253Cli%2520class%253D%2522apex-list-items%2522%253EItem%25203%253C%252Fli%253E%2520%250A%2509%2509%253Cli%2520class%253D%2522apex-list-items%2522%253EItem%25204%253C%252Fli%253E%2520%250A%2509%253C%252Ful%253E"
+              style="width: 600px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            <div class="stacked-lists-wrapper flex-column-center">
+              <h2 class="list-heading">Stacked Lists</h2>
+              <ul class="stacked-lists">
+                <li class="stacked-list-items">
+                  <div class="badge-on-avatar flex-center">
+                    <img src="../components/assets/img_avatar.png" class="apex-avatar avatar-round-md avatar-border-grey" alt="">
+                    <div>
+                      <div>Person 1</div>
+                      <div>This is the message</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="stacked-list-items">
+                  <div class="badge-on-avatar flex-center">
+                    <img src="../components/assets/img_avatar.png" class="apex-avatar avatar-round-md avatar-border-grey" alt="">
+                    <div>
+                      <div>Person 2</div>
+                      <div>This is the message</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="stacked-list-items">
+                  <div class="badge-on-avatar flex-center">
+                    <img src="../components/assets/img_avatar.png" class="apex-avatar avatar-round-md avatar-border-grey" alt="">
+                    <div>
+                      <div>Person 3</div>
+                      <div>This is the message</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="stacked-list-items">
+                  <div class="badge-on-avatar flex-center">
+                    <img src="../components/assets/img_avatar.png" class="apex-avatar avatar-round-md avatar-border-grey" alt="">
+                    <div>
+                      <div>Person 4</div>
+                      <div>This is the message</div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="component-code">
+              <iframe src="https://carbon.now.sh/embed?bg=rgba%2877%2C77%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=861&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-lists%2522%253E%250A%2509%253Cli%2520class%253D%2522stacked-list-items%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522badge-on-avatar%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522apex-avatar%2520avatar-round-md%2520avatar-border-grey%2522%2520alt%253D%2522%2522%253E%250A%2509%2509%2509%253Cdiv%253E%250A%2509%2509%2509%2509%253Cdiv%253EPerson%25201%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253Cdiv%253EThis%2520is%2520the%2520message%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522stacked-list-items%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522badge-on-avatar%2520flex-center%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522apex-avatar%2520avatar-round-md%2520avatar-border-grey%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EPerson%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EThis%2520is%2520the%2520message%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E"
+              style="width: 926px; height: 541px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>
