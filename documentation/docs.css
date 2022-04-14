@@ -245,6 +245,26 @@ iframe {
   border: 1px solid var(--txt-grey-200);
   border-radius: 10px;
 }
-.txt-utils-name{
-    margin: 1rem;
+.txt-utils-name {
+  margin: 1rem;
+}
+
+/* Lists */
+.lists-wrapper {
+  width: 12.5rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 5px;
+  border: 1px solid var(--txt-grey-400);
+}
+.list-heading {
+  margin: 10px;
+  border-bottom: 1px solid var(--txt-grey-400);
+}
+.stacked-lists-wrapper {
+  width: 20.6rem;
+  padding: 10px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  border: 1px solid var(--txt-grey-400);
 }
