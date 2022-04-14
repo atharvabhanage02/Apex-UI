@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+:root {
+  --snackbar-background: #1e293b;
+  --snackbar-retry-btn: #8a2be2;
+  --snackbar-retry-btn-bg: #363636;
+}
+.snackbar-buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-snackbar {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-color: var(--snackbar-background);
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 5px 10px #a7a7a7;
+  cursor: pointer;
+}
+.snackbars-container {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.basic-snackbar {
+  background-color: var(--snackbar-background);
+  color: white;
+  padding: 6px 9px;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px #a7a7a7;
+  z-index: 1;
+}
+.stacked-snackbar{
+  width: 21.87rem;
+  height: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  bottom: 1.5rem;
+  z-index: 1;
+}
+.stacked-snackbar-options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.message {
+  display: inline;
+  padding: 1rem;
+}
+.snackbar-options {
+  display: inline;
+  padding: 5px;
+}
+.snackbar-close-icon {
+  font-size: 1.12rem;
+  padding: 10px;
+  cursor: pointer;
+}
+.snackbar-close-icon:hover {
+  border-radius: 50%;
+  color: red;
+  background-color: rgb(54, 54, 54);
+}
+.retry-btn {
+  color: var(--snackbar-retry-btn);
+  background-color: transparent;
+  border: none;
+  padding: 7px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.retry-btn:hover {
+  color: white;
+  background-color: var(--snackbar-retry-btn-bg);
+  border-radius: 10px;
+}
+.snackbar-position-leading {
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+}

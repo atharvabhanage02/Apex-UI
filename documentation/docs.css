@@ -99,6 +99,7 @@ body {
 .component-code {
   margin: 0.625rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

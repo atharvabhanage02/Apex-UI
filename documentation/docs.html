@@ -39,6 +39,7 @@
           <a href="#navbar" class="sidebar-links">Navbar</a>
           <a href="#text-utils" class="sidebar-links">Text Utilities</a>
           <a href="#lists" class="sidebar-links">Lists</a>
+          <a href="#snackbar" class="sidebar-links">Snackbar</a>
         </div>
       </div>
       <div class="documentation">
@@ -1060,11 +1061,62 @@
             </div>
           </div>
         </div>
+        <div class="sub-docs-container">
+          <div class="main-component-details">
+            <h1 class="docs-component-name" id="snackbar">Snackbar</h1>
+            <label class="component-desciption"
+              >Sliders are used to decide range for something like sound in
+              videos, price in shopping sites, etc.</label
+            >
+          </div>
+          <div class="component-demo">
+            <div class="snackbar-buttons">
+        <button class="btn-snackbar baseline">Baseline</button>
+        <button class="btn-snackbar leading">Leading</button>
+        <button class="btn-snackbar stacked">Stacked</button>
+    </div>
+    <div class="snackbars-container">
+        <div class="basic-snackbar" style="display: none;">
+            <span class="message">
+                Can't send photo . Retry in 5 seconds. 
+            </span>
+            <div class="snackbar-options">
+                <button class="retry-btn">Retry</button>
+                <i class="snackbar-close-icon close-icon-one fas fa-times"></i>
+            </div>
+        </div>
+        <div class="basic-snackbar snackbar-position-leading" style="display: none;">
+            <span class="message">
+                Can't send photo . Retry in 5 seconds. 
+            </span>
+            <div class="snackbar-options">
+                <button class="retry-btn">Retry</button>
+                <i class="snackbar-close-icon close-icon-two fas fa-times"></i>
+            </div>
+        </div>
+        <div class="basic-snackbar stacked-snackbar" id="stacked-snackbar" style="display: none;">
+            <div class="message">
+                This item already has the label "travel". 
+            </div>
+            <div class="stacked-snackbar-options">
+                <button class="retry-btn">Retry</button>
+                <i class="snackbar-close-icon close-icon-three fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+          </div>
+          <div class="component-code">
+            <iframe src="https://carbon.now.sh/embed?bg=rgba%2877%2C77%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-snackbar%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Can%27t%2520send%2520photo%2520.%2520Retry%2520in%25205%2520seconds.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522retry-btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar-close-icon%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-snackbar%2520snackbar-position-leading%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Can%27t%2520send%2520photo%2520.%2520Retry%2520in%25205%2520seconds.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522retry-btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar-close-icon%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-snackbar%2520stacked-snackbar%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-snackbar-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522retry-btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522snackbar-close-icon%2520%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 866px; height: 671px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="app.js"></script>
+    <script src="../components/snackbar/snackbar.js"></script>
     <script src="../components/slider/slider.js"></script>
   </body>
 </html>
