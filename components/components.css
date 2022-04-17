@@ -16,6 +16,7 @@
 @import url("../components/text-utilities/text-utilities.css");
 @import url("../components/lists/lists.css");
 @import url("../components/snackbar/snackbar.css");
+@import url("../components/simplified-grid/grid.css");
 body {
   font-family: "Roboto", sans-serif;
 }
