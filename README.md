@@ -36,3 +36,7 @@ Insert gif or link to demo
 
 
 ![Animation2](https://user-images.githubusercontent.com/90499683/154968675-f4ed0a21-4d22-4bcc-9f15-acc0b2d3496b.gif)
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharva-bhanage-02/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AtharvaBhanage)
